@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-arr = 1..5.to_a
+arr = (1..5).to_a
 count = 0
 arr.each_with_index do |product, index|
   count += product * index
