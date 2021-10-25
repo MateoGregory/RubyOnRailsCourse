@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-numbers = 1..20.to_a
+numbers = (1..20).to_a
 
 numbers.each_with_index { |num, index| p(num, index) }
 
